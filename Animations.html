@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+     .box{
+        height: 200px;
+    width: 300px;
+    background-color: hotpink;
+    position: relative;
+    animation: animation;
+    animation-duration: 2s;  
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    } 
+  
+@keyframes animation {
+/* from {background-color: goldenrod;}
+to {background-color: red;}   */
+0%{
+    background-color: red;
+    left: 10px;
+    top: 0;
+}
+25%{
+    background-color: rgb(114, 48, 48);
+    left: 10px;
+    top: 10px;
+}
+50%{
+    background-color: rosybrown;
+    left: 0px;
+    top: 10px;
+}
+
+75%{
+    background-color: tomato;
+    left: 0px;
+    top: 0px;
+}
+100%{
+    background-color: rgb(228, 163, 163);
+  
+}
+
+
+}
+</style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
